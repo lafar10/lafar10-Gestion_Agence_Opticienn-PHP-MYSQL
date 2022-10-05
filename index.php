@@ -44,7 +44,8 @@ include('./config/dbConnection.php');
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.php">Send Message</a></li>
 
                     <?php if (isset($_SESSION['auth_user'])) : ?>
                         <li class="nav-item dropdown">
